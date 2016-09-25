@@ -4,7 +4,6 @@ const APPID = require('./appid.json').id;
 
 exports.handler = (event, context, callback) => {
 	context.callbackWaitsForEmptyEventLoop = false;
-	// check reqyest us intended for this app
 
 	if (event.session.application.applicationId !== APPID) {
 		callback("Request wasn't meant for this application");
