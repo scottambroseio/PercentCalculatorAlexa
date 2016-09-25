@@ -1,0 +1,19 @@
+{
+	"intents": [
+    {
+      "intent": "CalculatePercentageIntent",
+      "slots": [
+        {
+          "name": "Percentage",
+          "type": "AMAZON.NUMBER"
+        },
+        {
+          "name": "Value",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    }]
+}

@@ -1,0 +1,4 @@
+CalculatePercentageIntent What is {Percentage} percent of {Value}
+CalculatePercentageIntent {Percentage} percent of {Value} is what
+CalculatePercentageIntent {Percentage} percent of {Value} is
+CalculatePercentageIntent Tell me what {Percentage} percent of {Value} is
